@@ -1,0 +1,295 @@
+,language,link,symbol
+0,abkhazian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ab.vec,ab
+1,acehnese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ace.vec,ace
+2,adyghe,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ady.vec,ady
+3,afar,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.aa.vec,aa
+4,afrikaans,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.af.vec,af
+5,akan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ak.vec,ak
+6,albanian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sq.vec,sq
+7,alemannic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.als.vec,als
+8,amharic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.am.vec,am
+9,anglo_saxon,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ang.vec,ang
+10,arabic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ar.vec,ar
+11,aragonese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.an.vec,an
+12,aramaic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.arc.vec,arc
+13,armenian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hy.vec,hy
+14,aromanian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.roa_rup.vec,roa_rup
+15,assamese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.as.vec,as
+16,asturian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ast.vec,ast
+17,avar,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.av.vec,av
+18,aymara,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ay.vec,ay
+19,azerbaijani,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.az.vec,az
+20,bambara,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bm.vec,bm
+21,banjar,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bjn.vec,bjn
+22,banyumasan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.map_bms.vec,map_bms
+23,bashkir,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ba.vec,ba
+24,basque,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.eu.vec,eu
+25,bavarian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bar.vec,bar
+26,belarusian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.be.vec,be
+27,bengali,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bn.vec,bn
+28,bihari,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bh.vec,bh
+29,bishnupriya manipuri,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bpy.vec,bpy
+30,bislama,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bi.vec,bi
+31,bosnian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bs.vec,bs
+32,breton,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.br.vec,br
+33,buginese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bug.vec,bug
+34,bulgarian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bg.vec,bg
+35,burmese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.my.vec,my
+36,buryat,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bxr.vec,bxr
+37,cantonese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zh_yue.vec,zh_yue
+38,catalan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ca.vec,ca
+39,cebuano,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ceb.vec,ceb
+40,central bicolano,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bcl.vec,bcl
+41,chamorro,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ch.vec,ch
+42,chavacano,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cbk_zam.vec,cbk_zam
+43,chechen,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ce.vec,ce
+44,cherokee,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.chr.vec,chr
+45,cheyenne,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.chy.vec,chy
+46,chichewa,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ny.vec,ny
+47,chinese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zh.vec,zh
+48,choctaw,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cho.vec,cho
+49,chuvash,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cv.vec,cv
+50,classical chinese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zh_classical.vec,zh_classical
+51,cornish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kw.vec,kw
+52,corsican,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.co.vec,co
+53,cree,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cr.vec,cr
+54,crimean tatar,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.crh.vec,crh
+55,croatian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hr.vec,hr
+56,czech,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cs.vec,cs
+57,danish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.da.vec,da
+58,divehi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.dv.vec,dv
+59,dutch,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nl.vec,nl
+60,dutch low saxon,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nds_nl.vec,nds_nl
+61,dzongkha,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.dz.vec,dz
+62,eastern punjabi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pa.vec,pa
+63,egyptian arabic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.arz.vec,arz
+64,emilian_romagnol,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.eml.vec,eml
+65,english,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.en.vec,en
+66,erzya,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.myv.vec,myv
+67,esperanto,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.eo.vec,eo
+68,estonian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.et.vec,et
+69,ewe,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ee.vec,ee
+70,extremaduran,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ext.vec,ext
+71,faroese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fo.vec,fo
+72,fiji hindi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hif.vec,hif
+73,fijian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fj.vec,fj
+74,finnish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fi.vec,fi
+75,franco_provençal,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.frp.vec,frp
+76,french,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fr.vec,fr
+77,friulian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fur.vec,fur
+78,fula,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ff.vec,ff
+79,gagauz,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gag.vec,gag
+80,galician,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gl.vec,gl
+81,gan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gan.vec,gan
+82,georgian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ka.vec,ka
+83,german,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.de.vec,de
+84,gilaki,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.glk.vec,glk
+85,goan konkani,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gom.vec,gom
+86,gothic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.got.vec,got
+87,greek,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.el.vec,el
+88,greenlandic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kl.vec,kl
+89,guarani,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gn.vec,gn
+90,gujarati,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gu.vec,gu
+91,haitian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ht.vec,ht
+92,hakka,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hak.vec,hak
+93,hausa,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ha.vec,ha
+94,hawaiian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.haw.vec,haw
+95,hebrew,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.he.vec,he
+96,herero,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hz.vec,hz
+97,hill mari,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mrj.vec,mrj
+98,hindi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hi.vec,hi
+99,hiri motu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ho.vec,ho
+100,hungarian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hu.vec,hu
+101,icelandic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.is.vec,is
+102,ido,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.io.vec,io
+103,igbo,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ig.vec,ig
+104,ilokano,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ilo.vec,ilo
+105,indonesian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.id.vec,id
+106,interlingua,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ia.vec,ia
+107,interlingue,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ie.vec,ie
+108,inuktitut,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.iu.vec,iu
+109,inupiak,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ik.vec,ik
+110,irish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ga.vec,ga
+111,italian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.it.vec,it
+112,jamaican patois,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.jam.vec,jam
+113,japanese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ja.vec,ja
+114,javanese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.jv.vec,jv
+115,kabardian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kbd.vec,kbd
+116,kabyle,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kab.vec,kab
+117,kalmyk,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.xal.vec,xal
+118,kannada,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kn.vec,kn
+119,kanuri,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kr.vec,kr
+120,kapampangan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pam.vec,pam
+121,karachay_balkar,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.krc.vec,krc
+122,karakalpak,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kaa.vec,kaa
+123,kashmiri,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ks.vec,ks
+124,kashubian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.csb.vec,csb
+125,kazakh,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kk.vec,kk
+126,khmer,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.km.vec,km
+127,kikuyu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ki.vec,ki
+128,kinyarwanda,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.rw.vec,rw
+129,kirghiz,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ky.vec,ky
+130,kirundi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.rn.vec,rn
+131,komi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kv.vec,kv
+132,komi_permyak,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.koi.vec,koi
+133,kongo,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kg.vec,kg
+134,korean,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ko.vec,ko
+135,kuanyama,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.kj.vec,kj
+136,kurdish (kurmanji),https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ku.vec,ku
+137,kurdish (sorani),https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ckb.vec,ckb
+138,ladino,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lad.vec,lad
+139,lak,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lbe.vec,lbe
+140,lao,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lo.vec,lo
+141,latgalian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ltg.vec,ltg
+142,latin,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.la.vec,la
+143,latvian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lv.vec,lv
+144,lezgian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lez.vec,lez
+145,ligurian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lij.vec,lij
+146,limburgish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.li.vec,li
+147,lingala,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ln.vec,ln
+148,lithuanian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lt.vec,lt
+149,livvi_karelian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.olo.vec,olo
+150,lojban,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.jbo.vec,jbo
+151,lombard,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lmo.vec,lmo
+152,low saxon,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nds.vec,nds
+153,lower sorbian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.dsb.vec,dsb
+154,luganda,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lg.vec,lg
+155,luxembourgish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lb.vec,lb
+156,macedonian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mk.vec,mk
+157,maithili,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mai.vec,mai
+158,malagasy,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mg.vec,mg
+159,malay,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ms.vec,ms
+160,malayalam,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ml.vec,ml
+161,maltese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mt.vec,mt
+162,manx,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gv.vec,gv
+163,maori,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mi.vec,mi
+164,marathi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mr.vec,mr
+165,marshallese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mh.vec,mh
+166,mazandarani,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mzn.vec,mzn
+167,meadow mari,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mhr.vec,mhr
+168,min dong,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cdo.vec,cdo
+169,min nan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zh_min_nan.vec,zh_min_nan
+170,minangkabau,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.min.vec,min
+171,mingrelian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.xmf.vec,xmf
+172,mirandese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mwl.vec,mwl
+173,moksha,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mdf.vec,mdf
+174,moldovan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mo.vec,mo
+175,mongolian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mn.vec,mn
+176,muscogee,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.mus.vec,mus
+177,nahuatl,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nah.vec,nah
+178,nauruan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.na.vec,na
+179,navajo,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nv.vec,nv
+180,ndonga,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ng.vec,ng
+181,neapolitan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nap.vec,nap
+182,nepali,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ne.vec,ne
+183,newar,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.new.vec,new
+184,norfolk,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pih.vec,pih
+185,norman,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nrm.vec,nrm
+186,north frisian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.frr.vec,frr
+187,northern luri,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.lrc.vec,lrc
+188,northern sami,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.se.vec,se
+189,northern sotho,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nso.vec,nso
+190,norwegian (bokmål),https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.no.vec,no
+191,norwegian (nynorsk),https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nn.vec,nn
+192,novial,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.nov.vec,nov
+193,nuosu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ii.vec,ii
+194,occitan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.oc.vec,oc
+195,old church slavonic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cu.vec,cu
+196,oriya,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.or.vec,or
+197,oromo,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.om.vec,om
+198,ossetian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.os.vec,os
+199,palatinate german,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pfl.vec,pfl
+200,pali,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pi.vec,pi
+201,pangasinan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pag.vec,pag
+202,papiamentu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pap.vec,pap
+203,pashto,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ps.vec,ps
+204,pennsylvania german,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pdc.vec,pdc
+205,persian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fa.vec,fa
+206,picard,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pcd.vec,pcd
+207,piedmontese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pms.vec,pms
+208,polish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pl.vec,pl
+209,pontic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pnt.vec,pnt
+210,portuguese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pt.vec,pt
+211,quechua,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.qu.vec,qu
+212,ripuarian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ksh.vec,ksh
+213,romani,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.rmy.vec,rmy
+214,romanian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ro.vec,ro
+215,romansh,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.rm.vec,rm
+216,russian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ru.vec,ru
+217,rusyn,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.rue.vec,rue
+218,sakha,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sah.vec,sah
+219,samoan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sm.vec,sm
+220,samogitian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bat_smg.vec,bat_smg
+221,sango,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sg.vec,sg
+222,sanskrit,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sa.vec,sa
+223,sardinian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sc.vec,sc
+224,saterland frisian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.stq.vec,stq
+225,scots,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sco.vec,sco
+226,scottish gaelic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.gd.vec,gd
+227,serbian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sr.vec,sr
+228,serbo_croatian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sh.vec,sh
+229,sesotho,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.st.vec,st
+230,shona,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sn.vec,sn
+231,sicilian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.scn.vec,scn
+232,silesian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.szl.vec,szl
+233,simple english,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.simple.vec,simple
+234,sindhi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sd.vec,sd
+235,sinhalese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.si.vec,si
+236,slovak,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sk.vec,sk
+237,slovenian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sl.vec,sl
+238,somali,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.so.vec,so
+239,southern azerbaijani,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.azb.vec,azb
+240,spanish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.es.vec,es
+241,sranan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.srn.vec,srn
+242,sundanese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.su.vec,su
+243,swahili,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sw.vec,sw
+244,swati,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ss.vec,ss
+245,swedish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.sv.vec,sv
+246,tagalog,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tl.vec,tl
+247,tahitian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ty.vec,ty
+248,tajik,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tg.vec,tg
+249,tamil,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ta.vec,ta
+250,tarantino,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.roa_tara.vec,roa_tara
+251,tatar,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tt.vec,tt
+252,telugu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.te.vec,te
+253,tetum,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tet.vec,tet
+254,thai,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.th.vec,th
+255,tibetan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.bo.vec,bo
+256,tigrinya,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ti.vec,ti
+257,tok pisin,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tpi.vec,tpi
+258,tongan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.to.vec,to
+259,tsonga,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ts.vec,ts
+260,tswana,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tn.vec,tn
+261,tulu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tcy.vec,tcy
+262,tumbuka,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tum.vec,tum
+263,turkish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tr.vec,tr
+264,turkmen,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tk.vec,tk
+265,tuvan,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tyv.vec,tyv
+266,twi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.tw.vec,tw
+267,udmurt,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.udm.vec,udm
+268,ukrainian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.uk.vec,uk
+269,upper sorbian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.hsb.vec,hsb
+270,urdu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ur.vec,ur
+271,uyghur,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ug.vec,ug
+272,uzbek,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.uz.vec,uz
+273,venda,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ve.vec,ve
+274,venetian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.vec.vec,vec
+275,vepsian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.vep.vec,vep
+276,vietnamese,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.vi.vec,vi
+277,volapük,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.vo.vec,vo
+278,võro,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fiu_vro.vec,fiu_vro
+279,walloon,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.wa.vec,wa
+280,waray,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.war.vec,war
+281,welsh,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.cy.vec,cy
+282,west flemish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.vls.vec,vls
+283,west frisian,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fy.vec,fy
+284,western punjabi,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pnb.vec,pnb
+285,wolof,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.wo.vec,wo
+286,wu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.wuu.vec,wuu
+287,xhosa,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.xh.vec,xh
+288,yiddish,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.yi.vec,yi
+289,yoruba,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.yo.vec,yo
+290,zazaki,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.diq.vec,diq
+291,zeelandic,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zea.vec,zea
+292,zhuang,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.za.vec,za
+293,zulu,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zu.vec,zu
