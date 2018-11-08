@@ -18,6 +18,7 @@ def main(path_to_table):
 
 	for index, row in df_languages.iterrows():
 		language = row['language']
+		print("Downloading vector for {lan}...".format(lan=language))
 		text_link = row['link']
 		# if language == "zulu":
 		response = ur.urlopen(text_link)
