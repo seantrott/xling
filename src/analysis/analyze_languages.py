@@ -60,6 +60,8 @@ def compare_form_and_meaning(vocab_mappings, words):
 df_languages = pd.read_csv("data/raw/all_languages.csv")
 
 for language in df_languages['language']:
+	if language != "english":
+		continue
 	try:
 		print("Trying to load model for {language}...".format(language=language))
 		filepath = 'data/vectors/{language}.vec'.format(language=language)
@@ -91,5 +93,7 @@ for language in df_languages['language']:
 			  'std': reg.stderr}]
 
 	df_output = pd.DataFrame(output)
+	print(df_output)
+
 	df_output.to_csv("data/processed/{language}_results.csv".format(language=language))
 	df_comparisons.to_csv("data/processed/{language}_comparisons.csv".format(language=language))
