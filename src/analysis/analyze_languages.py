@@ -62,6 +62,9 @@ df_languages = pd.read_csv("data/raw/all_languages.csv")
 for language in df_languages['language']:
 	if language != "english":
 		continue
+	print("Trying to load english model")
+	filepath = 'data/vectors/{language}.vec'.format(language=language)
+	vocab_mappings = read_vec_file(filepath)
 	try:
 		print("Trying to load model for {language}...".format(language=language))
 		filepath = 'data/vectors/{language}.vec'.format(language=language)
