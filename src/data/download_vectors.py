@@ -1,7 +1,5 @@
 """Download vectors from links in table."""
 
-from bs4 import BeautifulSoup
-
 import pandas as pd
 import urllib.request as ur
 
