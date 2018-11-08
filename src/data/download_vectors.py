@@ -19,11 +19,11 @@ def main(path_to_table):
 	for index, row in df_languages.iterrows():
 		language = row['language']
 		text_link = row['link']
-		if language == "zulu":
-			response = ur.urlopen(text_link)
-			file_obj = response.read()
-			with open("data/vectors/{language}.vec".format(language=language), "wb") as f:
-				f.write(file_obj)
+		# if language == "zulu":
+		response = ur.urlopen(text_link)
+		file_obj = response.read()
+		with open("data/vectors/{language}.vec".format(language=language), "wb") as f:
+			f.write(file_obj)
 
 
 if __name__ == "__main__":
