@@ -43,11 +43,12 @@ def compare_form_and_meaning(vocab_mappings, words):
 		w1_vec = vocab_mappings[w1]
 		w2_vec = vocab_mappings[w2]
 		if len(w1_vec) != len(w2_vec):
-			print("Incompatible lengths, moving on...")
 			continue
 		orth_distance = ed.eval(w1, w2)
 		meaning_distance = compute_cosine_distance(w1_vec, w2_vec)
 		analysis.append({
+			'w1': w1,
+			'w2': w2,
 			'orthographic_distance': orth_distance,
 			'cosine_distance': meaning_distance
 			})
@@ -73,7 +74,7 @@ for language in df_languages['language']:
 	# Preprocess vocab to remove .html characters, etc.
 	words = vocab_mappings.keys()
 	words = remove_html_words(words)
-	words = random.sample(words, 500)
+
 	num_words = len(words)
 	print("Vocab size: {n}".format(n=num_words))
 
@@ -91,3 +92,4 @@ for language in df_languages['language']:
 
 	df_output = pd.DataFrame(output)
 	df_output.to_csv("data/processed/{language}_results.csv".format(language=language))
+	df_comparisons.to_csv("data/processed/{language}_comparisons.csv".format(language=language))
