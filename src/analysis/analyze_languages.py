@@ -67,7 +67,8 @@ for language in df_languages['language']:
 		filepath = 'data/vectors/{language}.vec'.format(language=language)
 		vocab_mappings = read_vec_file(filepath)
 		print("Loaded model for {language}...".format(language=language))
-	except FileNotFoundError:
+	except Exception as e:
+		print(e)
 		print("File for '{language}' not found! Moving on to the next language.".format(language=language))
 		continue
 	
