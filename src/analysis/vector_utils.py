@@ -12,6 +12,7 @@ def read_vec_file(path):
 	for line in open(path, "r"):
 	    fields = line.strip().split(" ") 
 	    word = fields[0]
+	    print(len(fields[1:]))
 	    vec = [float(v) for v in fields[1:]]
 	    vocab[word] = vec
 
