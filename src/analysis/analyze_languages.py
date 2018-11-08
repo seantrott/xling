@@ -32,6 +32,7 @@ def contains_html(word):
 def remove_html_words(words):
 	"""Remove all words in list with .html characters."""
 	filtered = [w for w in words if not contains_html(w)]
+	return filtered
 
 def compare_form_and_meaning(model, words):
 	"""Compare form and meaning distances of all word pairs."""
@@ -68,8 +69,9 @@ for language in df_languages['language']:
 
 	# Hack for now
 	# words = random.sample(vocab, 10)
-	words = vocab
+	words = remove_html_words(words)
 	num_words = len(words)
+	print("Vocab size: {n}".format(n=num_words))
 	df_comparisons = compare_form_and_meaning(model=model, words=words)
 
 	reg = ss.linregress(df_comparisons['orthographic_distance'],
