@@ -17,7 +17,7 @@ def main(path_to_table):
 	df_languages = pd.read_csv(path_to_table)
 
 	for index, row in df_languages.iterrows():
-		if index >= 65:
+		if index >= 66:
 			language = row['language']
 			print("Downloading vector for {lan}...".format(lan=language))
 			text_link = row['link']
