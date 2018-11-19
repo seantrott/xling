@@ -62,7 +62,7 @@ def compare_form_and_meaning(model, words):
 
 df_languages = pd.read_csv("data/raw/all_languages.csv")
 
-for language in df_languages['language'][1:-1]:
+for language in df_languages['language'][2:-1]:
 	try:
 		print("Trying to load model for {language}...".format(language=language))
 		filepath = 'data/vectors/{language}.vec'.format(language=language)
