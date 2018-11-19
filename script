@@ -1,0 +1,17 @@
+#SBATCH -J myjob          # Job name
+#SBATCH -o myjob.%j.out   # define stdout filename; %j expands to jobid
+#SBATCH -e myjob.%j.err   # define stderr filename; skip to combine stdout and stderr
+
+#SBATCH --mail-user=sttrott@ucsd.edu
+#SBATCH --mail-type=ALL
+#SBATCH -A TG-01234       # specify the project or allocation number
+
+#SBATCH -p normal         # specify queue
+#SBATCH -N 2              # Number of nodes, not cores (16 cores/node)
+#SBATCH -n 32             # Total number of MPI tasks (if omitted, n=N)
+#SBATCH -t 00:30:00       # set maximum run time of 30 minutes
+
+module purge
+module load python
+module load scipy          # Load any necessary modules (these are examples)
+mpirun python src/analysis/analyze_languages.py        # TACC systems use "ibrun", not "mpirun"
