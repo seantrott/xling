@@ -107,5 +107,5 @@ for language in df_languages['language']:
 
 	df_output = pd.DataFrame(output)
 
-	df_output.to_csv("data/processed/analysis_from_random_sample/{language}_results.csv".format(language=language))
+	df_output.to_csv("data/processed/test_analysis/{language}_results.csv".format(language=language))
 	# df_comparisons.to_csv("data/processed/{language}_comparisons.csv".format(language=language))
