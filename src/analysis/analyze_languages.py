@@ -12,6 +12,7 @@ TO SAVE:
 
 """
 
+import os
 import random
 
 import pandas as pd 
@@ -38,16 +39,12 @@ def remove_html_words(words):
 
 def compare_form_and_meaning(model, words):
 	"""Compare form and meaning distances of all word pairs."""
-	combos = list(combinations(words, 2))
+	# combos = list(combinations(words, 2))
 
 	analysis = []
-	for w1, w2 in tqdm(combos):
-		# w1_vec = vocab_mappings[w1]
-		# w2_vec = vocab_mappings[w2]
-		# if len(w1_vec) != len(w2_vec):
-		# 	continue
+	# for w1, w2 in tqdm(combos):
+	for w1, w2 in combinations(words, 2):
 		orth_distance = ed.eval(w1, w2)
-		# meaning_distance = compute_cosine_distance(w1_vec, w2_vec)
 		meaning_similarity = model.similarity(w1, w2)
 		analysis.append({
 			'w1': w1,
@@ -63,6 +60,10 @@ def compare_form_and_meaning(model, words):
 df_languages = pd.read_csv("data/raw/all_languages.csv")
 
 for language in df_languages['language'][2:-1]:
+	outfile_path = "data/processed/{language}_results.csv".format(language=language)
+	if os.path.exists(outfile_path):
+		print("Already analyzed for {language}".format(language=language))
+		continue
 	try:
 		print("Trying to load model for {language}...".format(language=language))
 		filepath = 'data/vectors/{language}.vec'.format(language=language)
