@@ -39,11 +39,11 @@ def remove_html_words(words):
 
 def compare_form_and_meaning(model, words):
 	"""Compare form and meaning distances of all word pairs."""
-	# combos = list(combinations(words, 2))
+	combos = list(combinations(words, 2))
 
 	analysis = []
-	# for w1, w2 in tqdm(combos):
-	for w1, w2 in combinations(words, 2):
+	for w1, w2 in tqdm(combos):
+	# for w1, w2 in combinations(words, 2):
 		orth_distance = ed.eval(w1, w2)
 		meaning_similarity = model.similarity(w1, w2)
 		analysis.append({
@@ -59,7 +59,7 @@ def compare_form_and_meaning(model, words):
 
 df_languages = pd.read_csv("data/raw/all_languages.csv")
 
-for language in df_languages['language'][2:-1]:
+for language in df_languages['language']:
 	outfile_path = "data/processed/analysis_from_random_sample/{language}_results.csv".format(language=language)
 	if os.path.exists(outfile_path):
 		print("Already analyzed for {language}".format(language=language))
