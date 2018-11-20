@@ -1,16 +1,9 @@
-"""Read in vectors for each language.
+#!/usr/bin/python3
 
-TO DO:
-- Parallelize
-- Ignore/remove .html items in vocab
-- Should we take negative sign of form or meaning distance (to make them compatible / same direction?)
+#SBATCH --output=output.log
+#SBATCH --partition=TG-OTH150003 
+#SBATCH -n 5 # 5 cores
 
-TO SAVE:
-- vocab size
-- results of regression analysis
-- all the actual comparisons? (To use in a full mixed-model analysis)
-
-"""
 
 import os
 import random
