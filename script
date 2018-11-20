@@ -1,3 +1,4 @@
+#!/bin/sh
 #SBATCH -J myjob          # Job name
 #SBATCH -o myjob.%j.out   # define stdout filename; %j expands to jobid
 #SBATCH -e myjob.%j.err   # define stderr filename; skip to combine stdout and stderr
