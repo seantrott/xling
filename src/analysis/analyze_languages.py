@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #SBATCH --output=output.log
-#SBATCH --partition=TG-OTH150003 
+#SBATCH --partition=Comet
 #SBATCH -n 5 # 5 cores
 
 
