@@ -57,6 +57,9 @@ def compare_form_and_meaning(model, words):
 
 
 
+SAMPLING_BEHAVIORS = ['frequency', 'random', 'None']
+SAMPLING = 'frequency'
+
 df_languages = pd.read_csv("data/raw/all_languages.csv")
 
 for language in df_languages['language']:
@@ -81,9 +84,15 @@ for language in df_languages['language']:
 	words = model.vocab.keys()
 	words = remove_html_words(words)
 
-	if len(words) > 2000:
+	original_size = len(words)
+
+	if len(words) > 2000 and SAMPLING != "None": 
 		print("Randomly sampling 2000 words")
-		words = random.sample(words, 2000)
+		if SAMPLING == "random":
+			words = random.sample(words, 2000)
+		elif SAMPLING == "frequency":
+			# Select 2000 most frequent tokens
+			words = words[0:2000]
 
 	num_words = len(words)
 	print("Vocab size: {n}".format(n=num_words))
@@ -96,6 +105,7 @@ for language in df_languages['language']:
 						df_comparisons['meaning_similarity'])
 
 	output = [{'vocab_size': num_words,
+			  'original_size': original_size,
 			  'slope': reg.slope,
 			  'intercept': reg.intercept,
 			  'correlation': reg.rvalue,
