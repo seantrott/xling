@@ -26,6 +26,17 @@ num_cores = int(sys.argv[1])
 NUM_JOBS = num_cores
 
 
+def contains_html(word):
+	"""Return whether word contains .html characters."""
+	html_characters = ['<', '[', '/', '(', '>']
+	return any(elem in word for elem in html_characters)
+
+def remove_html_words(words):
+	"""Remove all words in list with .html characters."""
+	filtered = [w for w in words if not contains_html(w)]
+	return filtered
+
+
 def compare_form_and_meaning(w1, w2):
 	return {'orthographic_distance': ed.eval(w1, w2),
 			'meaning_similarity': model.similarity(w1, w2),
