@@ -60,7 +60,7 @@ def compare_form_and_meaning(model, words):
 df_languages = pd.read_csv("data/raw/all_languages.csv")
 
 for language in df_languages['language'][2:-1]:
-	outfile_path = "data/processed/{language}_results.csv".format(language=language)
+	outfile_path = "data/processed/analysis_from_random_sample/{language}_results.csv".format(language=language)
 	if os.path.exists(outfile_path):
 		print("Already analyzed for {language}".format(language=language))
 		continue
@@ -79,8 +79,11 @@ for language in df_languages['language'][2:-1]:
 
 	# Preprocess vocab to remove .html characters, etc.
 	words = model.vocab.keys()
-	# words = vocab_mappings.keys()
 	words = remove_html_words(words)
+
+	if len(words) > 2000:
+		print("Randomly sampling 2000 words")
+		words = random.sample(words, 2000)
 
 	num_words = len(words)
 	print("Vocab size: {n}".format(n=num_words))
@@ -101,5 +104,5 @@ for language in df_languages['language'][2:-1]:
 
 	df_output = pd.DataFrame(output)
 
-	df_output.to_csv("data/processed/{language}_results.csv".format(language=language))
+	df_output.to_csv("data/processed/analysis_from_random_sample/{language}_results.csv".format(language=language))
 	# df_comparisons.to_csv("data/processed/{language}_comparisons.csv".format(language=language))
