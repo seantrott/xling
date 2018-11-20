@@ -44,8 +44,9 @@ def compare_form_and_meaning(w1, w2):
 			'w2': w2}
 
 def get_comparisons(model, words):
-	return Parallel(n_jobs=NUM_JOBS, verbose=10)(delayed(compare_form_and_meaning)(w1, w2) for w1, w2 in combinations(words, 2))
+	analysis = Parallel(n_jobs=NUM_JOBS, verbose=10)(delayed(compare_form_and_meaning)(w1, w2) for w1, w2 in combinations(words, 2))
 
+	return pd.DataFrame(analysis)
 
 
 df_languages = pd.read_csv("data/raw/all_languages.csv")
