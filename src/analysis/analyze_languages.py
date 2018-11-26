@@ -57,11 +57,11 @@ df_languages = pd.read_csv("data/raw/all_languages.csv")
 
 for language in df_languages['language']:
 	outfile_path = "data/processed/analysis_from_random_sample/{language}_results.csv".format(language=language)
-	outfile_path = "data/processed/test_analysis/{language}_results.csv".format(language=language)
+	outfile_path2 = "data/processed/test_analysis/{language}_results.csv".format(language=language)
 	if os.path.exists(outfile_path):
 		print("Already analyzed for {language}".format(language=language))
 		continue
-	elif os.path.exists(outfile_path2):
+	if os.path.exists(outfile_path2):
 		print("Already analyzed for {language}".format(language=language))
 		continue
 	try:
