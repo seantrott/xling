@@ -52,7 +52,7 @@ def get_comparisons(model, words):
 df_languages = pd.read_csv("data/raw/all_languages.csv")
 
 for language in df_languages['language']:
-	outfile_path = "data/processed/analysis_from_random_sample/{language}_results.csv".format(language=language)
+	outfile_path = "data/processed/parallelized_analysis/{language}_results.csv".format(language=language)
 	if os.path.exists(outfile_path):
 		print("Already analyzed for {language}".format(language=language))
 		continue
@@ -90,5 +90,5 @@ for language in df_languages['language']:
 
 	df_output = pd.DataFrame(output)
 
-	df_output.to_csv("data/processed/test_analysis/{language}_results.csv".format(language=language))
+	df_output.to_csv("data/processed/parallelized_analysis/{language}_results.csv".format(language=language))
 	# df_comparisons.to_csv("data/processed/{language}_comparisons.csv".format(language=language))
