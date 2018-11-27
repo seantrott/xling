@@ -7,7 +7,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH -A TG-OTH150003       # specify the project or allocation number
 
-#SBATCH -p debug         # specify queue
+#SBATCH -p compute         # specify queue
 #SBATCH -N 2              # Number of nodes, not cores (16 cores/node)
 #SBATCH -n 16             # Total number of MPI tasks (if omitted, n=N)
 #SBATCH -t 00:30:00       # set maximum run time of 30 minutes
