@@ -15,4 +15,4 @@
 module purge
 module load python
 module load scipy          # Load any necessary modules (these are examples)
-ibrun -n python src/analysis/parallelized_analysis.py 16       # TACC systems use "ibrun", not "mpirun"
+mpirun -n python src/analysis/parallelized_analysis.py 16       # TACC systems use "ibrun", not "mpirun"
