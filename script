@@ -12,7 +12,6 @@
 #SBATCH -n 16             # Total number of MPI tasks (if omitted, n=N)
 #SBATCH -t 00:30:00       # set maximum run time of 30 minutes
 
-module purge
 module load python
 module load scipy          # Load any necessary modules (these are examples)
 ibrun -n 2 python src/analysis/parallelized_analysis.py 16       # TACC systems use "ibrun", not "mpirun"
